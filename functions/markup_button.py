@@ -42,7 +42,7 @@ def start_markup(chat_id: int, bot_username: str):
             [
                 InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
                 InlineKeyboardButton(
-                    gm(chat_id, "maintainer"), url="https://t.me/talktoabdul_bot"
+                    gm(chat_id, "maintainer"), url="https://t.me/hdiiofficial"
                 ),
             ],
             [
@@ -53,8 +53,8 @@ def start_markup(chat_id: int, bot_username: str):
             ],
             [
                 InlineKeyboardButton(
-                    gm(chat_id, "source_code"),
-                    url="https://github.com/DoellBarr/solidmusic",
+                    gm(chat_id, "SUPPORT"),
+                    url="https://t.me/HDRIOFFICIAL",
                 )
             ],
         ]
